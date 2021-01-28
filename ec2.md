@@ -20,7 +20,7 @@ Reserved: Provides a capacity reservation with a significant discount. Contract 
 *   Applications that require reserved capacity.
 *   Users able to make up-front payments to reduce their total computing cost even further.
 
-*   Standard reserved instances: The more you pay up-front and the longer the contract, the greater the discount.
+**   Standard reserved instances: The more you pay up-front and the longer the contract, the greater the discount.
 *   Convertible reserved instances: Allow users to change attributes of the reserved instance as long as the 
     exchange results in the creation of reserved instances of equal or greater value.
 *   Scheduled reserved instances: Available to launch within the time windows you reserve (Can be fraction of day/week/month).
