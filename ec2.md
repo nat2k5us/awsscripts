@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 eliminates your need to invest in hardware up front (EC2), so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need (ELB and ASG), configure security and networking (ELB, NLB, Security groups, NACL, VPN ...), and manage storage (EBS and EFS). Know EC2 is necessary to understand cloud.
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 eliminates your need to invest in hardware up front (EC2), so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need (ELB and ASG), configure security and networking (ELB, NLB, Security groups, NACL, VPN ...), and manage storage (EBS and EFS). Knowing EC2 is necessary to understand cloud.
 
 ### EC2 Pricing models
 
