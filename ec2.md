@@ -2,38 +2,49 @@
 
 ## Introduction
 
-EC2 is a web service that provides resizable compute capacity in the cloud. It will reduce the time required to obtain and boot new server instances to minutes, allowing you to quickly scale capacity, as your computing requirements change.
+Amazon Elastic Compute Cloud (Amazon EC2) provides scalable computing capacity in the Amazon Web Services (AWS) Cloud. Using Amazon EC2 eliminates your need to invest in hardware up front (EC2), so you can develop and deploy applications faster. You can use Amazon EC2 to launch as many or as few virtual servers as you need (ELB and ASG), configure security and networking (ELB, NLB, Security groups, NACL, VPN ...), and manage storage (EBS and EFS). Know EC2 is necessary to understand cloud.
 
 ### EC2 Pricing models
 
 On demand: Pay a fixed rate by the hour with no commitment.
 
+*   Pay per second after first 5 mins, short term - uninterupped workloads, highest cost
 *   Users that want the low cost and flexibility of EC2 without any up-front payment or long-term commitment.
 *   Applications with short term, spiky, or unpredictable workloads that cannot be interrupted.
 *   Applications being developed or tested on EC2 for the first time.
 
 Reserved: Provides a capacity reservation with a significant discount. Contract terms are 1 year or 3 year terms.
 
+*   75% discount when compared to on demand, good for Databases
 *   Applications with steady state or predictable usage.
 *   Applications that require reserved capacity.
 *   Users able to make up-front payments to reduce their total computing cost even further.
 
 *   Standard reserved instances: The more you pay up-front and the longer the contract, the greater the discount.
-*   Convertible reserved instances: Allow users to change attributes of the reserved instance as long as the exchange results in the creation of reserved instances of equal or greater value.
-*   Scheduled reserved instances: Available to launch within the time windows you reserve.
+*   Convertible reserved instances: Allow users to change attributes of the reserved instance as long as the 
+    exchange results in the creation of reserved instances of equal or greater value.
+*   Scheduled reserved instances: Available to launch within the time windows you reserve (Can be fraction of day/week/month).
 
-Spot: Enables you to bid the price for instance capacity, providing for even greater savings if your applications have flexible start and end times.
+Spot: Enables you to bid the price for instance capacity, providing for even greater savings (90%) if your applications have flexible start and end times.
 
+*   Instances can be lost with a 2 minute warning, good for good for big data (resilent to failures, not for databases
 *   Applications that have flexible start and end times.
 *   Applications that are only feasible at very low compute prices.
 *   Users with urgent computing needs for large amounts of additional capacity.
 
 Dedicated hosts: Physical EC2 server dedicated for your use, which can help you reduce costs by allowing you to use your existing server.
 
+*   Gain visibility to underlying sockets and cores, more expensive, 3 yr reservation needed, useful when you have special software licence
 *   Useful for regulatory requirements that may not support multi-tenant virtualization.
 *   Great for licensing which does not support multi-tenancy or cloud deployments.
 *   Can be purchased on demand (hourly).
 *   Can be purchased on reservation.
+*   Full control over instance placement
+
+Dedicated Instances: 
+  * Instances run on hardware dedicated to you
+  * May share hardware with other instances in same account
+  * No control over instance placement
 
 ### EC2 Lab
 
